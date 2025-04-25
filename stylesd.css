@@ -142,16 +142,18 @@ main {
     box-shadow: 0 4px 15px rgba(84, 56, 179, 0.3);
     transition: all 0.3s ease;
     cursor: pointer;
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 200px;
+    text-decoration: none;
 }
 
 .service-btn:hover {
-    transform: translateY(-10px);
+    transform: scale(1.02);
     box-shadow: 0 10px 25px rgba(84, 56, 179, 0.4);
+    transition: transform 0.2s ease;
 }
 
 .service-btn i {
@@ -201,7 +203,7 @@ main {
 }
 
 .service-btn:nth-child(8) {
-    background: linear-gradient(135deg, #04fa04 0%, #98fd8e 100%);
+    background: linear-gradient(135deg, #fcacac 0%, #98fd8e 100%);
 }
 /* Contact button */
 .contact-button {
