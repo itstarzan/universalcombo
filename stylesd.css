@@ -138,11 +138,11 @@ main {
     border-radius: 12px;
     padding: 1.5rem;
     text-align: center;
-    color: white;
+    color: inherit;
     box-shadow: 0 4px 15px rgba(84, 56, 179, 0.3);
     transition: all 0.3s ease;
     cursor: pointer;
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -152,6 +152,7 @@ main {
 .service-btn:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(84, 56, 179, 0.4);
+    transition: transform 0.2s ease;
 }
 
 .service-btn i {
